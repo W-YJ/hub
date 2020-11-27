@@ -6,6 +6,7 @@ linters:
     - errcheck
     - goconst
     - goimports
+    - gocyclo
     - golint
     - gosec
     - gosimple
@@ -31,4 +32,4 @@ linters-settings:
     min-confidence: 0
 
 service:
-  golangci-lint-version: 1.23.x
+  golangci-lint-version: 1.33.x
